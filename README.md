@@ -28,15 +28,6 @@ Vdc (after rectification) = 120*sqrt(2) = `169.7 Vpeak`
 Efficiency: `85 %`
 * Relatively decent efficiency, very achievable
 
-SMPS Topologies:
-* Buck Converter
-* (bad with high voltage no isolation)
-* Flyback Converter
-* Lower cost
-* Full Isolation
-* Simpler math
-* Usually lower wattage (`<150 W`)
-
 Specifications
 * Input Voltage: `120 Vrms`
 * Rectified Input Voltage: `169.7 Vpeak`
