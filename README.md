@@ -3,7 +3,7 @@ Design a Class D bookshelf speaker with STM32 DSP
 
 ### Calculations
 Crystal Calculations: 
-```cpp
+```
 From Datasheet: 
 - 18pF load capacitance 
 
