@@ -3,10 +3,19 @@ Design a Class D bookshelf speaker with STM32 DSP
 
 ### Calculations
 Crystal Calculations: 
-18pF load capacitance (from datasheet)
+From Datasheet: 
+* 18pF load capacitance 
 
-Ceq = (1/C1 + 1/C2)^(-1) 
-Ceq/2 = C1 = C2 
+Ceq = (1/C1 + 1/C2)^(-1) + Cstray
+Since C1 = C2 = C:
+Ceq = C/2 + Cstray
+
+Solve for C (5pF estimate):
+C/2 = Ceq - Cstray
+C = 2(Ceq - Cstray)
+C = 2(18pF - 5pF)
+C = 26pF
+
 
 Using: 
 https://www.digikey.com/en/products/detail/abracon-llc/ABMM2-8-000MHZ-E2-T/1236945
