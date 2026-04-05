@@ -1,5 +1,9 @@
 Design a Class D bookshelf speaker with STM32 DSP
 
+Reference Design:
+https://github.com/STM32-base/STM32-base.github.io/blob/master/assets/pdf/boards/original-schematic-STM32F407VGT6_STM32F4XX_M.pdf
+
+
 ### Calculations
 Crystal Calculations: 
 ```
