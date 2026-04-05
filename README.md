@@ -4,12 +4,11 @@
 ### Speaker Drivers:
 ## Tweeter:
 https://www.parts-express.com/Dayton-Audio-RST28F-4-1-1-8-Reference-Series-Fabric-Dome-Tweeter-4-Ohm-275-141?quantity=1
-
-Power Handling (RMS)	`80 W`
+* Power Handling (RMS)	`80 W`
 
 ## Woofer:
 https://www.parts-express.com/Dayton-Audio-RS150-8-6-Reference-Woofer-295-354?quantity=1
-Power Handling (RMS)	`40 W`
+* Power Handling (RMS)	`40 W`
 
 ### Calculations and Selections:
 PWR: 40 + 80 = 120 `Wrms`
