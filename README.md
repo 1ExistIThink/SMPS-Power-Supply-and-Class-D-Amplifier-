@@ -18,29 +18,30 @@ PWR output: `Class D efficiency (80% worst case) = 120/0.9 * 1.5 = 200W`
 Connect `120V` outlet to SMPS, output `24V` to Class D amplifier
 
 Switching Frequency: `250kHz`
-	* `250kHz/20kHz = 12.5 x higher than audio band`, will likely not be heard
-	* Smaller component sized
-	* Increased switching losses than lower frequencies
+* `250kHz/20kHz = 12.5 x higher than audio band`, will likely not be heard
+* Smaller component sized
+* Increased switching losses than lower frequencies
 
 `P = IV -> I = P/V = 200W / 24Vdc = 8.33A`
 
 `Vdc (after rectification) = 120*sqrt(2) = 169.7Vpeak`
 
 Efficiency: `85%`
-	* Relatively decent efficiency, very achievable
+* Relatively decent efficiency, very achievable
 
 SMPS Topologies:
-	* Buck Converter
-		*  (bad with high voltage no isolation)
-	* Flyback Converter
-		* Lower cost
-		* Full Isolation
-		* Simpler math
-		* Usually lower wattage (`<150W`)
+* Buck Converter
+* (bad with high voltage no isolation)
+* Flyback Converter
+* Lower cost
+* Full Isolation
+* Simpler math
+* Usually lower wattage (`<150W`)
+
 Specifications
-	* Input Voltage: `120 Vrms`
-	* Rectified Input Voltage: `169.7 Vpeak`
-	* Output Power: `200 W`
-	* Output Voltage: `24 Vdc`
-	* Output Current: `8.33 A`
-	* Switching Frequency: `250 kHz`
+* Input Voltage: `120 Vrms`
+* Rectified Input Voltage: `169.7 Vpeak`
+* Output Power: `200 W`
+* Output Voltage: `24 Vdc`
+* Output Current: `8.33 A`
+* Switching Frequency: `250 kHz`
