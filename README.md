@@ -56,6 +56,7 @@ https://www.digikey.com/en/products/detail/alps-alpine/SKRPABE010/18768948
 Unpopulated Crystal:
 Using:
 https://www.digikey.com/en/products/detail/abracon-llc/ABS07-32-768KHZ-T/1236858
+```
 Ceq = (1/C1 + 1/C2)^(-1) + Cstray
 Since C1 = C2 = C:
 Ceq = C/2 + Cstray
@@ -67,3 +68,4 @@ C = 2(Ceq - Cstray)
 C = 2(12.5pF - 3pF)
 C = 2(9.5pF)
 C = 19pF
+```
