@@ -1,4 +1,3 @@
-<img width="1405" height="672" alt="image" src="https://github.com/user-attachments/assets/72375acb-b295-495b-8d46-e097ac3811df" />Project:
 Design a Class D bookshelf speaker with STM32 DSP
 
 ### Calculations
