@@ -42,3 +42,7 @@ https://www.digikey.com/en/products/detail/macronix/MX25L3233FM2I-08G/7402341
 Features:
 * External 4MB Flash 
 * Power 3.3V
+
+SO/SIO1 (PB4) is the flash output, so it goes to MCU MISO.
+SI/SIO0 (PB5) the flash input, so it goes to MCU MOSI.
+SCLK (PB3) 
