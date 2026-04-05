@@ -34,3 +34,8 @@ https://www.digikey.com/en/products/detail/molex/2171790001/13913749
 Using (TVS Diode IC):
 https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1040559
 
+
+Flash:
+Using:
+https://www.digikey.com/en/products/detail/macronix/MX25L3233FM2I-08G/7402341
+* External 4MB Flash 
