@@ -1,6 +1,6 @@
 ### Sources:
  
-Goal: Design a SMPS for bookshelf speakers. 
+Goal: Design a SMPS for bookshelf speakers. Connect `120 V (RMS)` outlet to SMPS, output `24V` to Class D amplifier
 
 ### Speaker Drivers:
 ## Tweeter:
@@ -13,15 +13,17 @@ https://www.parts-express.com/Dayton-Audio-RS150-8-6-Reference-Woofer-295-354?qu
 Power Handling (RMS)	`40 W (RMS)`
 
 ### Calculations and Selections:
-PWR: Pspeaker(RMS) + Ptweeter(RMS) = 40 + 80 = `120 W (RMS)`
-PWR output: Class D efficiency (90%) = 120/0.9 * 1.5 = `200 W (RMS)`
+Power Output: 
+* Pspeaker(RMS) + Ptweeter(RMS) = 40 + 80 = `120 W (RMS)`
 
-Connect `120 V (RMS)` outlet to SMPS, output `24V` to Class D amplifier
+Desired PWR output:
+* Class D efficiency (90%) = 120/0.9 * 1.5 = `200 W (RMS)`
 
 Switching Frequency: `250kHz`
 * 250kHz/20kHz = 12.5 x higher than audio band, will likely not be heard
-* Smaller component sized
+* Smaller component sizing
 * Increased switching losses than lower frequencies
+* Harder to do layout than lower frequencies 
 
 Output Current: P = IV -> I = P/V = 200W / 24Vdc = `8.33A`
 
