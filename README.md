@@ -1,4 +1,4 @@
-Project:
+<img width="1405" height="672" alt="image" src="https://github.com/user-attachments/assets/72375acb-b295-495b-8d46-e097ac3811df" />Project:
 Design a Class D bookshelf speaker with STM32 DSP
 
 ### Calculations
@@ -46,3 +46,11 @@ Features:
 SO/SIO1 (PB4) is the flash output, so it goes to MCU MISO.
 SI/SIO0 (PB5) the flash input, so it goes to MCU MOSI.
 SCLK (PB3) 
+<img width="1405" height="672" alt="image" src="https://github.com/user-attachments/assets/4f7f5371-8e19-4156-b4e4-896c328b30fb" />
+
+Reset Switch:
+Using: 
+https://www.digikey.com/en/products/detail/alps-alpine/SKRPABE010/18768948
+
+<img width="1242" height="577" alt="image" src="https://github.com/user-attachments/assets/74c4b333-a552-469b-a5ca-36267148e44b" />
+
