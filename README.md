@@ -36,6 +36,9 @@ https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/104055
 
 
 Flash:
+
 Using:
 https://www.digikey.com/en/products/detail/macronix/MX25L3233FM2I-08G/7402341
+Features:
 * External 4MB Flash 
+* Power 3.3V
