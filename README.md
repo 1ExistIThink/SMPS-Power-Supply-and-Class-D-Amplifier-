@@ -17,6 +17,7 @@ C = 2(Ceq - Cstray)
 C = 2(18pF - 5pF)
 C = 26pF
 ```
+We will choose 25pF, which is available on digikey and is close to our value. 
 
 Using: 
 https://www.digikey.com/en/products/detail/abracon-llc/ABMM2-8-000MHZ-E2-T/1236945
