@@ -3,9 +3,9 @@ Design a Class D bookshelf speaker with STM32 DSP
 
 ### Calculations
 Crystal Calculations: 
-```
+```cpp
 From Datasheet: 
-* 18pF load capacitance 
+- 18pF load capacitance 
 
 Ceq = (1/C1 + 1/C2)^(-1) + Cstray
 Since C1 = C2 = C:
