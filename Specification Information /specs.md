@@ -1,5 +1,6 @@
 ### Sources:
  
+Goal: Design a SMPS for bookshelf speakers. 
 
 ### Speaker Drivers:
 ## Tweeter:
