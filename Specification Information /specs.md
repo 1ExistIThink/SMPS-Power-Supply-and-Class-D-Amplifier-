@@ -1,6 +1,13 @@
 ### Sources:
- 
-Goal: Design a SMPS for bookshelf speakers. Connect `120 V (RMS)` outlet to SMPS, output `24V` to Class D amplifier
+* https://www.electricity-magnetism.org/forward-converter-formula/
+* https://www.plexim.com/sites/default/files/tutorials/forward_converter.pdf
+
+
+Goal: Design a SMPS for bookshelf speakers. Connect `120 V (RMS)` outlet to SMPS, output `24V` to Class D amplifier.
+## Topology:
+* Forward converter: 
+* simple: one MOSFET, cheap, works well
+* Transformer Turns Ratio (with half wave the turns ratio is higher) 
 
 ### Speaker Drivers:
 ## Tweeter:
@@ -39,3 +46,30 @@ Specifications (Summary)
 * Output Current: `8.33 A`
 * Switching Frequency: `250 kHz`
 * Target Efficiency `85 %` 
+
+### Calculations 
+Remember we are using a Forward Converter topology 
+
+Rectified Voltage (from NMOS):
+* Vp = 120*sqrt(2) = 169.7 V (DC) 
+Subtract 1V from Rectification Loss: 
+* Vp = 168.7 V (DC)
+Add 0.5V for rectification loss:
+* Vs = 24.5V
+Choosing duty cycle D = 0.45 
+* Vs = Vp * D * (Ns/Np) -> Ns/Np = Vs/(Vp * D) = 24.5 / (168.7 * 0.45) = 0.323 turns ratio 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
